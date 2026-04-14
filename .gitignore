@@ -1,0 +1,22 @@
+
+# PDFs e binários grandes (usar Git LFS se quiser versionar)
+raw/*.pdf
+raw/assets/*.pdf
+raw/assets/*.png
+raw/assets/*.jpg
+raw/assets/*.jpeg
+
+# Repos gerenciados como submodules
+raw/repos/
+
+# Estado local do Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Python
+**/__pycache__/
+**/*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
